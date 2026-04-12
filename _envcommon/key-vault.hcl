@@ -3,7 +3,7 @@
 # RBAC auth, purge protection, private access only
 # -----------------------------------------------------
 terraform {
-  source = "git::https://github.com/DeepMalh44/radshow-def.git//modules/key-vault?ref=${local.env_vars.locals.environment == "PRD01" ? "v1.0.0" : "main"}"
+  source = "git::https://github.com/ketz1014-test/radshow-def.git//modules/key-vault?ref=${local.env_vars.locals.environment == "PRD01" ? "v1.0.0" : "main"}"
 }
 
 locals {

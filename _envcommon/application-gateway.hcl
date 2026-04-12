@@ -3,7 +3,7 @@
 # WAF_v2 with URL path routing (FD → AppGW → APIM / SPA)
 # -----------------------------------------------------
 terraform {
-  source = "git::https://github.com/DeepMalh44/radshow-def.git//modules/application-gateway?ref=${local.env_vars.locals.environment == "PRD01" ? "v1.0.0" : "main"}"
+  source = "git::https://github.com/ketz1014-test/radshow-def.git//modules/application-gateway?ref=${local.env_vars.locals.environment == "PRD01" ? "v1.0.0" : "main"}"
 }
 
 locals {

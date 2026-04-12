@@ -19,7 +19,7 @@
 set -euo pipefail
 
 # ── Defaults ─────────────────────────────────────────────────────────────────
-GITHUB_ORG="DeepMalh44"
+GITHUB_ORG="ketz1014-test"
 ENVIRONMENT=""
 SUBSCRIPTION_ID=""
 TENANT_ID=""
@@ -32,7 +32,7 @@ usage() {
 while [[ $# -gt 0 ]]; do
   case $1 in
     --env) ENVIRONMENT="$2"; shift 2 ;;
-    --org) GITHUB_ORG="$2"; shift 2 ;;
+    --org) GITHUB_ORG="ketz1014-test"; shift 2 ;;
     *) usage ;;
   esac
 done
